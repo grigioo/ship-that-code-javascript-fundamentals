@@ -22,14 +22,14 @@ Use **WSL** if you can: run `wsl --install` in an admin PowerShell once, then do
 2. Create a new **empty, public** repo at [github.com/new](https://github.com/new) — leave "Add a README" and ".gitignore" **unchecked** (this folder already has both).
 3. In your terminal, inside the unzipped folder, push it to GitHub:
 
-   ```sh
-   git init
-   git add .
-   git commit -m "start JavaScript Fundamentals"
-   git branch -M main
-   git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
-   git push -u origin main
-   ```
+    ```sh
+    git init
+    git add .
+    git commit -m "start JavaScript Fundamentals"
+    git branch -M main
+    git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
+    git push -u origin main
+    ```
 
 4. Paste your repo link on the [course page](https://shipthatcode.com/courses/javascript-fundamentals) ("Work in your own editor" → **Link repo**). Done — you never do this again.
 
